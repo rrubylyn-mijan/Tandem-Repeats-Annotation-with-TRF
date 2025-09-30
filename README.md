@@ -72,7 +72,7 @@ bedtools makewindows -g wheat.fasta.fai -w 1000000 > wheat_genome_1Mb_windows.be
 bedtools coverage -a wheat_genome_1Mb_windows.bed -b wheat_tandem_repeats.bed > wheat_tandem_repeat_density.txt
 
 # Format for Circos:
-awk '{gsub(/^chr/, "ta", $1); print $1, $2, $3, $7}' wheat_tandem_repeat_density.txt > x5_tandem_repeat_density_glenn
+awk '{gsub(/^chr/, "ta", $1); print $1, $2, $3, $7}' wheat_tandem_repeat_density.txt > x5_tandem_repeat_density_wheat
 ```
 
 Maintainer:
