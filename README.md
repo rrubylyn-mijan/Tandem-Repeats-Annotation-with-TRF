@@ -3,7 +3,7 @@ This workflow identifies and quantifies tandem repeats in wheat genome assemblie
 
 ## 1. Installation
 ```bash
-cd /directory/this/saved/tandem_repeat_finder
+cd /directory/this/saved/tandem-repeat-finder
 git clone https://github.com/Benson-Genomics-Lab/TRF.git
 cd TRF
 ./configure
